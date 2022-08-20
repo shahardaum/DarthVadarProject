@@ -1,0 +1,93 @@
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  min-height: 100vh;
+  background-color: #e5e5e5;
+}
+.top-bg {
+  height: 250px;
+  background-color: #6495ed;
+}
+.card {
+  background-color: #242f39;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  border-radius: 8px;
+  text-align: center;
+}
+.card__image-container {
+  margin-top: 20px;
+  position: relative;
+}
+.card__image {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+.card__notification {
+  font-size: 12px;
+  color: white;
+  background-color: red;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 70%;
+  left: 65%;
+  border: 2px solid #242f39;
+}
+.card__username {
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 0;
+}
+.card__description {
+  margin-top: 0;
+  font-size: 12px;
+  color: #a9c2ef;
+  font-weight: 400;
+}
+.card__line {
+  display: flex;
+
+  justify-content: center;
+}
+.card__box {
+  flex: 1;
+  background-color: #0f8bd9;
+}
+.card__box:nth-child(even) {
+  background-color: #0e7ec5;
+}
+.box__number {
+  margin-bottom: 0;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+}
+.box__followers {
+  margin-top: 0;
+  font-size: 10px;
+  color: #92baee;
+  font-weight: 400;
+}
+.card__btn {
+  width: 50%;
+  height: 35px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #242f39;
+  color: white;
+  border: 3px solid white;
+}
